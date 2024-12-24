@@ -1,0 +1,18 @@
+.nav {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+
+    margin: 50px auto;
+}
+
+.nav-item {
+    transition: a .7s ease;
+}
+
+.nav-item:hover a {
+    color: #dedce1;
+}
